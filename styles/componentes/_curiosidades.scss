@@ -1,0 +1,17 @@
+@import '../abstract/variaveis';
+
+#curiosidades {
+    margin-top: 2rem;
+        .container-imagem {
+            display: block;
+            margin: 4rem auto;
+            width: 50%;
+        }
+        p {
+            font-size: $tamanho-texto / 4;
+            font-weight: 300;
+            text-align: center;
+            line-height: 1rem;
+            padding: 0 5rem;
+        }
+}
